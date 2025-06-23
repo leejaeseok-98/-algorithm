@@ -13,8 +13,7 @@ class Solution33 {
         int answer = 0;
         for (int i = 0; i < num_list.length; i++) {
             if (num_list[i] == n) {
-                answer++;
-                break;
+                answer = 1;
             }
         }
         return answer;
