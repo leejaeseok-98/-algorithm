@@ -11,6 +11,6 @@ public class P_181832 {
 }
 class Sol13{
     public int[][] solution(int n){
-        
+        return null;
     }
 }
