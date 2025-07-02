@@ -1,4 +1,4 @@
-package backJoon.bronze5;
+package backJoon.bronze;
 
 import java.io.*;
 import java.util.StringTokenizer;

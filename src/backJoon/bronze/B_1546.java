@@ -1,4 +1,4 @@
-package backJoon.bronze5;
+package backJoon.bronze;
 
 import java.io.BufferedReader;
 import java.io.IOException;
