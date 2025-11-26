@@ -14,7 +14,7 @@ public class B_10986 {
         long cnt = 0;
 
         long[] s = new long[N];
-        long[] c = new long[N];
+        long[] c = new long[M];
 
         st = new StringTokenizer(br.readLine());
         s[0] = Integer.parseInt(st.nextToken());
@@ -27,7 +27,7 @@ public class B_10986 {
             if (remainder == 0) cnt++;
             c[remainder]++;
         }
-        for (int i = 0; i < N;i++){
+        for (int i = 0; i < M;i++){
             if (c[i] > 1){
                 cnt = cnt + (c[i] * (c[i]-1)/2);
             }
