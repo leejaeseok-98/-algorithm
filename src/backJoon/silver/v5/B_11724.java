@@ -42,7 +42,7 @@ public class B_11724 {
     public static void dfs(int v){
         if (visited[v]) return;
         visited[v] = true;
-        for (int i = 1; i < A[v].size(); i++){
+        for (int i = 0; i < A[v].size(); i++){
             int u = A[v].get(i);
             if (!visited[u]){
                 dfs(u);
