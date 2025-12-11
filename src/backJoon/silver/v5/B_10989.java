@@ -18,8 +18,8 @@ public class B_10989 {
         for (int i = 0;i<n;i++){
             bw.write(A[i] + "\n");
         }
-        bw.close();
         bw.flush();
+        bw.close();
     }
 
     public static void Radix_Sort(int[] A, int max_size){
